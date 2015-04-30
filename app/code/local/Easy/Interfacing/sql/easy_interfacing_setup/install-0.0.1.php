@@ -10,4 +10,9 @@
 /**
  * @var $this Mage_Sales_Model_Resource_Setup
  */
+
+$this->startSetup();
+
 $this->addAttribute('order', 'is_exported', array('type' => 'int', 'grid' => true));
+
+$this->endSetup();

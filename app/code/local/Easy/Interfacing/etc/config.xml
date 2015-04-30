@@ -21,13 +21,9 @@
             <easy_interfacing>
                 <class>Easy_Interfacing_Block</class>
             </easy_interfacing>
-        </blocks>
-        <blocks>
             <adminhtml>
                 <rewrite>
-                    <sales_order_grid>
-                        Easy_Interfacing_Block_Adminhtml_Sales_Order_Grid
-                    </sales_order_grid>
+                    <sales_order_grid>Easy_Interfacing_Block_Adminhtml_Sales_Order_Grid</sales_order_grid>
                 </rewrite>
             </adminhtml>
         </blocks>
