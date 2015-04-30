@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Easy_Interfacing>
+            <version>0.0.1</version>
+        </Easy_Interfacing>
+    </modules>
+    <global>
+        <resource>
+            <easy_interfacing_setup>
+                <module>Easy_Interfacing</module>
+                <class>Mage_Sales_Model_Resource_Setup</class>
+            </easy_interfacing_setup>
+        </resource>
+        <helpers>
+            <easy_interfacing>
+                <class>Easy_Interfacing_Helper</class>
+            </easy_interfacing>
+        </helpers>
+        <blocks>
+            <easy_interfacing>
+                <class>Easy_Interfacing_Block</class>
+            </easy_interfacing>
+        </blocks>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <sales_order_grid>
+                        Easy_Interfacing_Block_Adminhtml_Sales_Order_Grid
+                    </sales_order_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>

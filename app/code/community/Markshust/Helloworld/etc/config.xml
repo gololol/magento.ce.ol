@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Markshust_Helloworld>
+            <version>1.0.0</version>
+        </Markshust_Helloworld>
+    </modules>
+    
+    <frontend>
+        <routers>
+            <markshust_helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Markshust_Helloworld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </markshust_helloworld>
+        </routers>
+    </frontend>
+</config>
