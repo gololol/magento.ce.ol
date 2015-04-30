@@ -1,0 +1,24 @@
+app/etc/local.xml
+.modgit/
+.idea/
+media/catalog/
+media/customer/
+media/dhl/
+media/downloadable/
+media/.htaccess
+media/import/
+media/tmp/
+media/pdf/
+media/xmlconnect/
+media/wysiwyg/
+media/catalog/product/cache/
+var/
+var/log/exception.log
+var/log/exception.log
+var/cache/
+#Eclipse IDE
+############################
+.buildpath
+.project
+.settings/*
+#############################
